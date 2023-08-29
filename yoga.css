@@ -1,0 +1,23 @@
+h1
+{
+    background-color: #80CBC4;
+    color: #40407A;
+    background: url(lilyheader.jpg) no-repeat top right;
+    background-size:cover;
+    height:100px;
+}
+nav
+{
+    padding-left: 300px;
+}
+body
+{
+    background-color: #F5F5F5;
+    color: #40407A;
+}
+footer
+{
+    background-color: #80CBC4;
+    color: #40407A;
+    padding-left: 300px;
+}
