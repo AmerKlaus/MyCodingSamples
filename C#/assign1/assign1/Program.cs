@@ -187,7 +187,7 @@ namespace assign1
         public void DisplayPatientRecord()
         {
             drawLine();
-            Console.WriteLine($"| {"PATIENT HEART RATE RECORD",53}  {"|",25}");
+            Console.WriteLine($"| {"PATIENT HEALTH RECORD",53}  {"|",25}");
             drawLine();
             string personName = lastName + ", " + firstName;
             Console.WriteLine($"| {"Patient Name",-30} | {personName,-45} |");
