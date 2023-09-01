@@ -45,7 +45,7 @@ namespace ConsoleApp1
             currentYear = c;
         }
 
-        public String FirstName
+        String FirstName
         {
             get
             {
@@ -57,7 +57,7 @@ namespace ConsoleApp1
             }
         }
 
-        public String LastName
+        String LastName
         {
             get
             {
@@ -68,7 +68,7 @@ namespace ConsoleApp1
                 lastName = value;
             }
         }
-        public int BirthYear
+        int BirthYear
         {
             get
             {
@@ -79,7 +79,7 @@ namespace ConsoleApp1
                 birthYear = value;
             }
         }
-        public int CurrentYear
+        int CurrentYear
         {
             get
             {
@@ -91,7 +91,7 @@ namespace ConsoleApp1
             }
         }
 
-        int ageCal
+        int AgeCal
         {
             get
             {
@@ -99,30 +99,30 @@ namespace ConsoleApp1
             }
         }
 
-        int maxHeartRate
+        int MaxHeartRate
         {
             get
             {
-                return 220 - ageCal;
+                return 220 - AgeCal;
             }
         }
 
-        int maxTargetHeart
+        int MaxTargetHeart
         {
             get
             {
                 int target;
-                target = (int)(maxHeartRate * 0.85);
+                target = (int)(MaxHeartRate * 0.85);
                 return target;
             }
         }
 
-        int minTargetHeart
+        int MinTargetHeart
         {
             get
             {
                 int target;
-                target = (int)(maxHeartRate * 0.50);
+                target = (int)(MaxHeartRate * 0.50);
                 return target;
             }
         }
@@ -145,9 +145,9 @@ namespace ConsoleApp1
             string personName = lastName + ", " + firstName;
             Console.WriteLine($"| {"Patient Name",-30} | {personName,-45} |");
             Console.WriteLine($"| {"Patient Birth Year",-30} | {birthYear,45} | ");
-            Console.WriteLine($"| {"Patient Age",-30} | {ageCal,45} | ");
-            Console.WriteLine($"| {"Maximum Heart Rate",-30} | {maxHeartRate,45} | ");
-            Console.WriteLine($"| {"Target Heart Rate Range",-30} | {minTargetHeart + "---" + maxTargetHeart,45} | ");
+            Console.WriteLine($"| {"Patient Age",-30} | {AgeCal,45} | ");
+            Console.WriteLine($"| {"Maximum Heart Rate",-30} | {MaxHeartRate,45} | ");
+            Console.WriteLine($"| {"Target Heart Rate Range",-30} | {MinTargetHeart + "---" + MaxTargetHeart,45} | ");
             drawLine();
         }
     }
