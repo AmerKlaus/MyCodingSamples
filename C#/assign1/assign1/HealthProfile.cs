@@ -6,51 +6,23 @@ using System.Threading.Tasks;
 
 namespace assign1
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            string firstName;
-            string lastName;
-            int birthYear;
-            int height;
-            int weight;
-            int currentYear;
-
-            Console.WriteLine("Please enter your first name: ");
-            firstName = Console.ReadLine();
-            Console.WriteLine("Please enter your last name: ");
-            lastName = Console.ReadLine();
-            Console.WriteLine("Please enter your birth year: ");
-            birthYear = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter your height: ");
-            height = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter your weight: ");
-            weight = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Please enter the current year: ");
-            currentYear = Convert.ToInt32(Console.ReadLine());
-
-            HealthProfile hp = new HealthProfile(firstName, lastName, birthYear, height, weight, currentYear);
-            hp.DisplayPatientRecord();
-        }
-    }
     public class HealthProfile
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public int birthYear { get; set; }
-        public int height { get; set; }
-        public int weight { get; set; }
-        public int currentYear { get; set; }
+        private string firstName;
+        private string lastName;
+        private int birthYear;
+        private int height;
+        private int weight;
+        private int currentYear;
 
         public HealthProfile(string firstName, string lastName, int birthYear, int height, int weight, int currentYear)
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.birthYear = birthYear;
-            this.height = height;
-            this.weight = weight;
-            this.currentYear = currentYear;
+            FirstName = firstName;
+            LastName = lastName;
+            BirthYear = birthYear;
+            Height = height;
+            Weight = weight;
+            CurrentYear = currentYear;
         }
 
         string FirstName
@@ -83,7 +55,7 @@ namespace assign1
             }
             set 
             { 
-                birthYear = value; 
+                birthYear = Math.Abs(value); 
             }
         }
         int Height
@@ -94,7 +66,7 @@ namespace assign1
             }
             set
             {
-                height = value;
+                height = Math.Abs(value);
             }
         }
         int Weight
@@ -105,7 +77,7 @@ namespace assign1
             }
             set
             {
-                weight = value;
+                weight = Math.Abs(value);
             }
         }
         int CurrentYear
@@ -116,14 +88,14 @@ namespace assign1
             }
             set
             {
-                currentYear = value;
+                currentYear = Math.Abs(value);
             }
         }
         int Age
         {
             get
             {
-                return currentYear - birthYear;
+                return CurrentYear - BirthYear;
             }
         }
         int HeartRate
@@ -150,21 +122,22 @@ namespace assign1
             }
         }
 
-        public double bmiCal()
+        public double BmiCal()
         {
-            return (weight * 703) / (height * height);
+            return (Weight * 703) / (Height * Height);
         }
-        public String bmiText()
+        public String BmiText()
         {
-            if(bmiCal() < 18.5)
+            double bmi = BmiCal();
+            if (bmi < 18.5)
             {
                 return "Underweight";
             }
-            else if(bmiCal() > 18.5 &&  bmiCal() < 24.9)
+            else if(bmi > 18.5 && bmi < 24.9)
             {
                 return "Normal";
             }
-            else if(bmiCal() > 25 &&  bmiCal() < 29.9)
+            else if(bmi > 25 && bmi < 29.9)
             {
                 return "Overweight";
             }
@@ -191,14 +164,14 @@ namespace assign1
             drawLine();
             string personName = lastName + ", " + firstName;
             Console.WriteLine($"| {"Patient Name",-30} | {personName,-45} |");
-            Console.WriteLine($"| {"Patient Birth Year",-30} | {birthYear,45} | ");
+            Console.WriteLine($"| {"Patient Birth Year",-30} | {BirthYear,45} | ");
             Console.WriteLine($"| {"Patient Age",-30} | {Age,45} | ");
-            Console.WriteLine($"| {"Patient Height",-30} | {height,45} | ");
-            Console.WriteLine($"| {"Patient Weight",-30} | {weight,45} | ");
+            Console.WriteLine($"| {"Patient Height",-30} | {Height,45} | ");
+            Console.WriteLine($"| {"Patient Weight",-30} | {Weight,45} | ");
             Console.WriteLine($"| {"Maximum Heart Rate",-30} | {HeartRate,45} | ");
-            Console.WriteLine($"| {"Target Heart Rate Range",-30} | {MinHeartRate + "---" + MaxHeartRate,45} | ");
-            Console.WriteLine($"| {"BMI Numeric Value",-30} | {bmiCal(),45} | ");
-            Console.WriteLine($"| {"BMI Text Value",-30} | {bmiText(),-45} | ");
+            Console.WriteLine($"| {"Target Heart Rate Range",-30} | {MinHeartRate + "--" + MaxHeartRate,45} | ");
+            Console.WriteLine($"| {"BMI Numeric Value",-30} | {BmiCal(),45} | ");
+            Console.WriteLine($"| {"BMI Text Value",-30} | {BmiText(),-45} | ");
             drawLine();
         }
     }

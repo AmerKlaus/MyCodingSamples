@@ -12,3 +12,11 @@ C:\Users\Amer-\OneDrive\Desktop\Labs - Prog\MyCodingSamples\C#\assign1\assign1\o
 C:\Users\Amer-\OneDrive\Desktop\Labs - Prog\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\Labs - Prog\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.exe
 C:\Users\Amer-\OneDrive\Desktop\Labs - Prog\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.pdb
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\bin\Debug\assign1.exe.config
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\bin\Debug\assign1.exe
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\bin\Debug\assign1.pdb
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.exe
+C:\Users\2205182\Desktop\lab\MyCodingSamples\C#\assign1\assign1\obj\Debug\assign1.pdb
