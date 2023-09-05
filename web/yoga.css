@@ -2,9 +2,12 @@ h1
 {
     background-color: #80CBC4;
     color: #40407A;
-    background: url(lilyheader.jpg) no-repeat top right;
-    background-size:cover;
-    height:100px;
+    background-image: url(lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    text-indent:2em;
+    padding:2em;
 }
 nav
 {
@@ -14,6 +17,12 @@ body
 {
     background-color: #F5F5F5;
     color: #40407A;
+}
+#home
+{
+    background-image: url(yogadoor.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 footer
 {
