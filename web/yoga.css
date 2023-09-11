@@ -1,32 +1,36 @@
 h1
 {
     background-color: #80CBC4;
-    color: #40407A;
-    background-image: url(lilyheader.jpg);
+    color: white;
+    background-image: url(sunrise.jpg);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size:contain;
+    background-size:cover;
     text-indent:2em;
-    padding:2em;
+    padding:4em;
+    height:200px;
 }
 nav
 {
-    padding-left: 300px;
+    padding-left:1580px;
 }
 body
 {
     background-color: #F5F5F5;
     color: #40407A;
 }
-#home
+#div1
 {
-    background-image: url(yogadoor.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+    padding-left:100px;
+    padding-right:100px;
+    background-color: #40407A;
+}
+#div2
+{
+    padding-left:20px;
+    background-color: #F5F5F5;
 }
 footer
 {
-    background-color: #80CBC4;
     color: #40407A;
-    padding-left: 300px;
+    padding-left:600px;
 }
