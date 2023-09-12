@@ -9,9 +9,24 @@ h1
     padding:4em;
     height:200px;
 }
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2
+{
+    padding-top:20px;
+}
 nav
 {
-    padding-left:1580px;
+    position:fixed;
+    width:100%;
+    text-align:right;
+    background-color: #F5F5F5;
+}
+#menu
+{
+    padding-right:50px;
 }
 body
 {
@@ -29,8 +44,20 @@ body
     padding-left:20px;
     background-color: #F5F5F5;
 }
+#d1
+{
+    float:left;
+    width: 31%;
+    padding-left: 2%;;
+}
+dd
+{
+    margin-left:0;
+}
 footer
 {
     color: #40407A;
-    padding-left:600px;
+    padding-left:40%;
+    padding-top:20%;
+    height:100%;
 }
