@@ -1,0 +1,11 @@
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\bin\Debug\Labels, TextBoxes and Buttons controls.exe.config
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\bin\Debug\Labels, TextBoxes and Buttons controls.exe
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\bin\Debug\Labels, TextBoxes and Buttons controls.pdb
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.csproj.AssemblyReference.cache
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels__TextBoxes_and_Buttons_controls.Form1.resources
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels__TextBoxes_and_Buttons_controls.Properties.Resources.resources
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.csproj.GenerateResource.cache
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.csproj.CoreCompileInputs.cache
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.exe
+C:\Users\2205182\source\repos\Labels, TextBoxes and Buttons controls\Labels, TextBoxes and Buttons controls\obj\Debug\Labels, TextBoxes and Buttons controls.pdb

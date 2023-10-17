@@ -1,0 +1,11 @@
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\bin\Debug\GroupBoxes and Panels.exe.config
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\bin\Debug\GroupBoxes and Panels.exe
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\bin\Debug\GroupBoxes and Panels.pdb
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.csproj.AssemblyReference.cache
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes_and_Panels.Form1.resources
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes_and_Panels.Properties.Resources.resources
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.csproj.GenerateResource.cache
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.csproj.CoreCompileInputs.cache
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.exe
+C:\Users\2205182\source\repos\GroupBoxes and Panels\GroupBoxes and Panels\obj\Debug\GroupBoxes and Panels.pdb

@@ -1,0 +1,11 @@
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\bin\Debug\Amer Al Jawabra_Lab03.exe.config
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\bin\Debug\Amer Al Jawabra_Lab03.exe
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\bin\Debug\Amer Al Jawabra_Lab03.pdb
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Hello World.csproj.AssemblyReference.cache
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Hello World.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Amer_Al_Jawabra_Lab03.Form1.resources
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Amer_Al_Jawabra_Lab03.Properties.Resources.resources
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Hello World.csproj.GenerateResource.cache
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Amer Al Jawabra_Lab03.exe
+C:\Users\2205182\source\repos\Amer Al Jawabra_Lab03\Amer Al Jawabra_Lab03\obj\Debug\Amer Al Jawabra_Lab03.pdb

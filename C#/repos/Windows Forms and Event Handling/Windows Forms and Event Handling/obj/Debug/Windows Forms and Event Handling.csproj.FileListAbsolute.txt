@@ -1,0 +1,11 @@
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\bin\Debug\Windows Forms and Event Handling.exe.config
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\bin\Debug\Windows Forms and Event Handling.exe
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\bin\Debug\Windows Forms and Event Handling.pdb
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.csproj.AssemblyReference.cache
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows_Forms_and_Event_Handling.Form1.resources
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows_Forms_and_Event_Handling.Properties.Resources.resources
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.csproj.GenerateResource.cache
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.csproj.CoreCompileInputs.cache
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.exe
+C:\Users\2205182\source\repos\Windows Forms and Event Handling\Windows Forms and Event Handling\obj\Debug\Windows Forms and Event Handling.pdb

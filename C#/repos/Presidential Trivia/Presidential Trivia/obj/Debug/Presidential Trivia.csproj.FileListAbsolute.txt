@@ -1,0 +1,11 @@
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\bin\Debug\Presidential Trivia.exe.config
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\bin\Debug\Presidential Trivia.exe
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\bin\Debug\Presidential Trivia.pdb
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.csproj.AssemblyReference.cache
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential_Trivia.Form1.resources
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential_Trivia.Properties.Resources.resources
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.csproj.GenerateResource.cache
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.csproj.CoreCompileInputs.cache
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.exe
+C:\Users\2205182\source\repos\Presidential Trivia\Presidential Trivia\obj\Debug\Presidential Trivia.pdb
