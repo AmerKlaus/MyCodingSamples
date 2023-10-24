@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\bin\Debug\Mouse-Event handling.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\bin\Debug\Mouse-Event handling.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\bin\Debug\Mouse-Event handling.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse-Event handling.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse_Event_handling.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse_Event_handling.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse-Event handling.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse-Event handling.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse-Event handling.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\Mouse-Event handling\Mouse-Event handling\obj\Debug\Mouse-Event handling.pdb

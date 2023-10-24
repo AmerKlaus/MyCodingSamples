@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\bin\Debug\NumericUpDown control.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\bin\Debug\NumericUpDown control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\bin\Debug\NumericUpDown control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown control.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown_control.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown_control.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown control.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown control.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\NumericUpDown control\NumericUpDown control\obj\Debug\NumericUpDown control.pdb

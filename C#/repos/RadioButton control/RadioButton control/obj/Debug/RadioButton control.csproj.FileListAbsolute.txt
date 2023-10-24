@@ -9,3 +9,13 @@ C:\Users\2205182\source\repos\RadioButton control\RadioButton control\obj\Debug\
 C:\Users\2205182\source\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.csproj.CoreCompileInputs.cache
 C:\Users\2205182\source\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.exe
 C:\Users\2205182\source\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\bin\Debug\RadioButton control.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\bin\Debug\RadioButton control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\bin\Debug\RadioButton control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton_control.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton_control.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\RadioButton control\RadioButton control\obj\Debug\RadioButton control.pdb

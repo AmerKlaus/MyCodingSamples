@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.pdb
