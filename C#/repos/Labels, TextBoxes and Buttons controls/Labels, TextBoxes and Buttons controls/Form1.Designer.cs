@@ -70,7 +70,7 @@
             this.Controls.Add(this.displayPasswordButton);
             this.Controls.Add(this.displayPasswordLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Label, TextBox, and Button";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -278,7 +278,7 @@
             this.Controls.Add(this.buttonType);
             this.Controls.Add(this.displayButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Demonstrating RadioButtons";
             this.buttonType.ResumeLayout(false);
             this.buttonType.PerformLayout();
             this.iconType.ResumeLayout(false);

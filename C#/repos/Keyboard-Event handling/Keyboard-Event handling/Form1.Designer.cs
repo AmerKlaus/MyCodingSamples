@@ -54,7 +54,7 @@
             this.Controls.Add(this.keyInfoLabel);
             this.Controls.Add(this.charLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Key Demo";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);

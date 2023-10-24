@@ -73,7 +73,7 @@
             this.Controls.Add(this.boldCheckBox);
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CheckBox Test";
             this.ResumeLayout(false);
             this.PerformLayout();
 

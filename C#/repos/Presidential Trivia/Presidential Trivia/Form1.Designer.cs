@@ -73,7 +73,7 @@
             this.Controls.Add(this.answerLabel);
             this.Controls.Add(this.questionLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Presidential Trivia";
             this.ResumeLayout(false);
 
         }

@@ -61,7 +61,7 @@
             this.Controls.Add(this.imagePictureBox);
             this.Controls.Add(this.nextButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "PictureBox Test";
             ((System.ComponentModel.ISupportInitialize)(this.imagePictureBox)).EndInit();
             this.ResumeLayout(false);
 

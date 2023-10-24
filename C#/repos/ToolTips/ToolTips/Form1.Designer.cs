@@ -62,7 +62,7 @@
             this.Controls.Add(this.secondLabel);
             this.Controls.Add(this.firstLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ToolTip Demonstration";
             this.ResumeLayout(false);
             this.PerformLayout();
 

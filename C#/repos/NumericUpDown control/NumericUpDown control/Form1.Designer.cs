@@ -36,10 +36,8 @@
             this.interestTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.yearUpDown = new System.Windows.Forms.NumericUpDown();
-            this.displayTextBox = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.displayTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.yearUpDown)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -106,32 +104,26 @@
             // 
             this.yearUpDown.Location = new System.Drawing.Point(108, 112);
             this.yearUpDown.Name = "yearUpDown";
+            this.yearUpDown.ReadOnly = true;
             this.yearUpDown.Size = new System.Drawing.Size(120, 20);
             this.yearUpDown.TabIndex = 8;
             // 
             // displayTextBox
             // 
-            this.displayTextBox.Location = new System.Drawing.Point(3, 9);
+            this.displayTextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.displayTextBox.Location = new System.Drawing.Point(34, 176);
+            this.displayTextBox.Multiline = true;
             this.displayTextBox.Name = "displayTextBox";
-            this.displayTextBox.Size = new System.Drawing.Size(242, 265);
+            this.displayTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.displayTextBox.Size = new System.Drawing.Size(320, 116);
             this.displayTextBox.TabIndex = 9;
-            // 
-            // panel1
-            // 
-            this.panel1.AutoScroll = true;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.displayTextBox);
-            this.panel1.Location = new System.Drawing.Point(34, 173);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 119);
-            this.panel1.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 304);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.displayTextBox);
             this.Controls.Add(this.yearUpDown);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.interestTextBox);
@@ -141,9 +133,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Interest Calculator";
             ((System.ComponentModel.ISupportInitialize)(this.yearUpDown)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,8 +150,7 @@
         private System.Windows.Forms.TextBox interestTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown yearUpDown;
-        private System.Windows.Forms.Label displayTextBox;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox displayTextBox;
     }
 }
 

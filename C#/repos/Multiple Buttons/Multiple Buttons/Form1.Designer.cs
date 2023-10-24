@@ -85,7 +85,7 @@
             this.Controls.Add(this.secondButton);
             this.Controls.Add(this.firstButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Multiple Buttons";
             this.ResumeLayout(false);
 
         }
