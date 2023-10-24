@@ -103,6 +103,11 @@
             // yearUpDown
             // 
             this.yearUpDown.Location = new System.Drawing.Point(108, 112);
+            this.yearUpDown.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.yearUpDown.Name = "yearUpDown";
             this.yearUpDown.ReadOnly = true;
             this.yearUpDown.Size = new System.Drawing.Size(120, 20);

@@ -8,3 +8,14 @@ C:\Users\Amer-\source\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.Ge
 C:\Users\Amer-\source\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\source\repos\PictureBox\PictureBox\obj\Debug\PictureBox.exe
 C:\Users\Amer-\source\repos\PictureBox\PictureBox\obj\Debug\PictureBox.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\bin\Debug\PictureBox.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\bin\Debug\PictureBox.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\bin\Debug\PictureBox.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\PictureBox\PictureBox\obj\Debug\PictureBox.pdb

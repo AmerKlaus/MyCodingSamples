@@ -55,7 +55,7 @@
             // 
             this.inputPasswordTextBox.Location = new System.Drawing.Point(60, 12);
             this.inputPasswordTextBox.Name = "inputPasswordTextBox";
-            this.inputPasswordTextBox.PasswordChar = '*';
+            this.inputPasswordTextBox.PasswordChar = '$';
             this.inputPasswordTextBox.Size = new System.Drawing.Size(186, 20);
             this.inputPasswordTextBox.TabIndex = 3;
             this.inputPasswordTextBox.Text = "C# is great!";

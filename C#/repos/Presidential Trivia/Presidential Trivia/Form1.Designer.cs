@@ -52,7 +52,7 @@
             this.answerLabel.Size = new System.Drawing.Size(298, 44);
             this.answerLabel.TabIndex = 1;
             this.answerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.answerLabel.Click += new System.EventHandler(this.answerLabel_Click);
+           // this.answerLabel.Click += new System.EventHandler(this.answerLabel_Click);
             // 
             // showAnswerButton
             // 

@@ -17,11 +17,6 @@ namespace Presidential_Trivia
             InitializeComponent();
         }
 
-        private void answerLabel_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void showAnswerButton_Click(object sender, EventArgs e)
         {
             answerLabel.Text = "Theodore Roosevelt";

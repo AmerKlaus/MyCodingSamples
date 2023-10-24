@@ -31,7 +31,6 @@
             this.firstButton = new System.Windows.Forms.Button();
             this.secondButton = new System.Windows.Forms.Button();
             this.thirdButton = new System.Windows.Forms.Button();
-            this.myLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // firstButton
@@ -64,23 +63,11 @@
             this.thirdButton.UseVisualStyleBackColor = true;
             this.thirdButton.Click += new System.EventHandler(this.thirdButton_Click);
             // 
-            // myLabel
-            // 
-            this.myLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.myLabel.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myLabel.Location = new System.Drawing.Point(37, 92);
-            this.myLabel.Name = "myLabel";
-            this.myLabel.Size = new System.Drawing.Size(291, 61);
-            this.myLabel.TabIndex = 3;
-            this.myLabel.Text = "Programming in Visual C# is fun!";
-            this.myLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 185);
-            this.Controls.Add(this.myLabel);
+            this.ClientSize = new System.Drawing.Size(379, 98);
             this.Controls.Add(this.thirdButton);
             this.Controls.Add(this.secondButton);
             this.Controls.Add(this.firstButton);
@@ -95,7 +82,6 @@
         private System.Windows.Forms.Button firstButton;
         private System.Windows.Forms.Button secondButton;
         private System.Windows.Forms.Button thirdButton;
-        private System.Windows.Forms.Label myLabel;
     }
 }
 

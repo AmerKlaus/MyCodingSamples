@@ -8,3 +8,14 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\D
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\bin\Debug\ToolTips.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\ToolTips\ToolTips\obj\Debug\ToolTips.pdb

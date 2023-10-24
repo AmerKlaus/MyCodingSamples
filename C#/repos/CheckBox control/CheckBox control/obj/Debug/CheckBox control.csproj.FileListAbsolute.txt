@@ -9,3 +9,14 @@ C:\Users\2205182\source\repos\CheckBox control\CheckBox control\obj\Debug\CheckB
 C:\Users\2205182\source\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.csproj.CoreCompileInputs.cache
 C:\Users\2205182\source\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.exe
 C:\Users\2205182\source\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\bin\Debug\CheckBox control.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\bin\Debug\CheckBox control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\bin\Debug\CheckBox control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox_control.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox_control.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos\CheckBox control\CheckBox control\obj\Debug\CheckBox control.pdb
