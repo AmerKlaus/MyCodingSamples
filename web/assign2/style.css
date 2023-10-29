@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/* Header section */
+header {
+    padding-top: 1%;
+    background-color: orange;
+    width: 100vw;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 3%;
+    margin-bottom: 0;
+    color: darkgreen;
+}
+
+/* Form section */
+.mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Align items at the top */
+    margin-top: 5%;
+    height: 70vh;
+}
+
+
+.radioDiv {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* Each radio button takes up 50% of the container width */
+}
+
+.radioLabel {
+    margin-left: 10px;
+    /* Add some spacing between the radio button and the label */
+}
+
+form {
+    width: 45%
+}
+
+form #hoursWorked {
+    width: 15%;
+    background-color: orange;
+}
+
+form #result {
+    width: 48%;
+    background-color: lightsteelblue;
+}
+
+form #btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 19%;
+}
+
+
+
+
+
+/* Table section */
+table {
+    width: 45%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: palegoldenrod;
+    width: 10em;
+}
+
+/* More Information section */
+.text {
+    width: 45%;
+}
+
+.img {
+    background-image: url(salary.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45%;
+    min-height: 45%;
+}

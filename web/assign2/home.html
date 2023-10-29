@@ -1,0 +1,105 @@
+<!-------------------------------------------------------
+    Assignment 2
+    Written by: Amer Al Jawabra 2205182
+    For “Internet Programming” Section 1 – Fall 2023
+-------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h1>Salary Calculator</h1>
+    </header>
+    <div class="mid">
+        <form>
+            <!-- Adding all the labels and inputs necessary for the calculator -->
+            <div class="radioDiv">
+                <div class="inputGroup">
+                    <input type="radio" name="jobTitle" id="accountant" value="Accountant" required />
+                    <label class="radioLabel" for="accountant">Accountant</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="radio" name="jobTitle" id="softwareEngineer" value="Software Engineer" required />
+                    <label class="radioLabel" for="softwareEngineer">Software Engineer</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="radio" name="jobTitle" id="projectManager" value="Project Manager" required />
+                    <label class="radioLabel" for="projectManager">Project Manager</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="radio" name="jobTitle" id="receptionist" value="Receptionist" required />
+                    <label class="radioLabel" for="receptionist">Receptionist</label>
+                </div>
+            </div>
+            <br><br>
+            <!-- Separated input radios with divs to make the page more responsive -->
+            <label for="hoursWorked">Number of working hours in a year: </label>
+            <input type="text" id="hoursWorked" required /> <br>
+
+            <button type="button" onclick="handleCalculateClick()" id="btn">Compute Annual Salary</button> <br>
+
+            <label for="result">Annual Salary: </label>
+            <input type="text" id="result" readonly>
+        </form>
+        <table border="2">
+            <!-- Creating a table to show the hourly rate for each job position -->
+            <tr>
+                <th>Position</th>
+                <th>Hourly Rate</th>
+            </tr>
+            <tr>
+                <td>Accountant</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Project Manager</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Software Engineer</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Receptionist</td>
+                <td>20</td>
+            </tr>
+        </table>
+            <!-- Adding link to a website which shows detailed info about annual salaries -->
+            <div class="text">
+                <h2>More Information:</h2>
+                <p>To know more about how salaries are calculated, visit this <a href="https://www.calculator.net/salary-calculator.html" target="_blank">link!</a></p>
+            </div>
+            <div class="img"></div>
+            
+    </div>
+    <script>
+        function handleCalculateClick() {
+            // initiazling salary
+            let sal = 0;
+            // reading value of hours worked into hours variable
+            const hours = parseFloat(document.getElementById("hoursWorked").value);
+            // checking which job radio button was clicked and assigning salary to corresponding job radio button
+            if (document.getElementById("accountant").checked) {
+                sal = 30;
+            } else if (document.getElementById("softwareEngineer").checked) {
+                sal = 35;
+            } else if (document.getElementById("projectManager").checked) {
+                sal = 50;
+            } else if (document.getElementById("receptionist").checked) {
+                sal = 20;
+            }
+            // Calculating the annual salary by mutilplying hours and salary
+            const result = "$ " + (hours * sal);
+            // adding the result of the annual salary into the textbox
+            document.getElementById("result").value = result;
+        }
+    </script>
+</body>
+
+</html>
