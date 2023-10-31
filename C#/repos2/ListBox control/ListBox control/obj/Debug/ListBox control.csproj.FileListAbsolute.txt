@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\bin\Debug\ListBox control.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\bin\Debug\ListBox control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\bin\Debug\ListBox control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox control.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox_control.ListBoxTestForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox_control.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox control.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox control.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListBox control\ListBox control\obj\Debug\ListBox control.pdb

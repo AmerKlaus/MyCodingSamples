@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\bin\Debug\CheckedListBox control.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\bin\Debug\CheckedListBox control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\bin\Debug\CheckedListBox control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox control.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox_control.CheckedListBoxTestForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox_control.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox control.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox control.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\CheckedListBox control\CheckedListBox control\obj\Debug\CheckedListBox control.pdb

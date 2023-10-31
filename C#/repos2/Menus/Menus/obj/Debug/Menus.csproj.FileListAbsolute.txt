@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\bin\Debug\Menus.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\bin\Debug\Menus.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\bin\Debug\Menus.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.mainForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\Menus\Menus\obj\Debug\Menus.pdb

@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\bin\Debug\ListView control.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\bin\Debug\ListView control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\bin\Debug\ListView control.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView control.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView_control.ListViewTestForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView_control.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView control.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView control.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView control.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\ListView control\ListView control\obj\Debug\ListView control.pdb
