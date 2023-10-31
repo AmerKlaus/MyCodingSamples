@@ -11,5 +11,4 @@ C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualI
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.CopyComplete
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.exe
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.pdb
-C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\Visual Inheritance.dll
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\Visual Inheritance.dll.config

@@ -51,7 +51,7 @@
             // 
             // displayLabel
             // 
-            this.displayLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayLabel.Location = new System.Drawing.Point(12, 169);
             this.displayLabel.Name = "displayLabel";
             this.displayLabel.Size = new System.Drawing.Size(367, 59);
@@ -109,13 +109,15 @@
             this.redToolStripMenuItem,
             this.greenToolStripMenuItem});
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.colorToolStripMenuItem.Text = "Color";
             // 
             // blackToolStripMenuItem
             // 
+            this.blackToolStripMenuItem.Checked = true;
+            this.blackToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.blackToolStripMenuItem.Name = "blackToolStripMenuItem";
-            this.blackToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.blackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.blackToolStripMenuItem.Text = "Black";
             this.blackToolStripMenuItem.Click += new System.EventHandler(this.blackToolStripMenuItem_Click);
             // 
@@ -150,7 +152,7 @@
             this.boldToolStripMenuItem,
             this.italicToolStripMenuItem});
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fontToolStripMenuItem.Text = "Font";
             // 
             // timesToolStripMenuItem
@@ -169,8 +171,10 @@
             // 
             // comicToolStripMenuItem
             // 
+            this.comicToolStripMenuItem.Checked = true;
+            this.comicToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.comicToolStripMenuItem.Name = "comicToolStripMenuItem";
-            this.comicToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.comicToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comicToolStripMenuItem.Text = "Comic Sans";
             this.comicToolStripMenuItem.Click += new System.EventHandler(this.comicToolStripMenuItem_Click);
             // 

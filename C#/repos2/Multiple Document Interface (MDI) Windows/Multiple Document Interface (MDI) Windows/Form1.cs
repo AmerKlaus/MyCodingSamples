@@ -60,44 +60,5 @@ namespace Multiple_Document_Interface__MDI__Windows
         {
             this.LayoutMdi(MdiLayout.TileVertical);
         }
-
-        private void lavendar1ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            var child1 = new ChildForm(
-                "Lavender Flowers", "lavenderflowers");
-            child1.MdiParent = this;
-            child1.Show();
-        }
-
-        private void purple2ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            var child1 = new ChildForm(
-                "Purple Flowers", "purpleflowers");
-            child1.MdiParent = this;
-            child1.Show();
-
-            var child2 = new ChildForm(
-                "Purple Flowers", "purpleflowers");
-            child2.MdiParent = this;
-            child2.Show();
-        }
-
-        private void yellow3ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            var child1 = new ChildForm(
-               "Yellow Flowers", "yellowflowers");
-            child1.MdiParent = this;
-            child1.Show();
-
-            var child2 = new ChildForm(
-               "Yellow Flowers", "yellowflowers");
-            child2.MdiParent = this;
-            child2.Show();
-
-            var child3 = new ChildForm(
-               "Yellow Flowers", "yellowflowers");
-            child3.MdiParent = this;
-            child3.Show();
-        }
     }
 }

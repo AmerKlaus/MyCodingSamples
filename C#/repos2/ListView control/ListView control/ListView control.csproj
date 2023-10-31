@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09EF713C-B051-4FEF-89D0-DE9355A4BD2A}</ProjectGuid>
+    <ProjectGuid>{AC02C722-B374-47EB-A1EB-3F687587FBA4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ListView_control</RootNamespace>
     <AssemblyName>ListView control</AssemblyName>
@@ -85,15 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\folder.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\file1.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\file2.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\folder1.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

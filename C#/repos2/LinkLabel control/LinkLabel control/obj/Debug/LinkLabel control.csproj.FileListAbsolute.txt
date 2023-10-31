@@ -8,3 +8,14 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\Link
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\bin\Debug\LinkLabel control.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\bin\Debug\LinkLabel control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\bin\Debug\LinkLabel control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel_control.LinkLabelTestForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel_control.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\LinkLabel control\LinkLabel control\obj\Debug\LinkLabel control.pdb

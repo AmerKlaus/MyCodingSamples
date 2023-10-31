@@ -45,16 +45,16 @@
             "Visual C# HTP"});
             this.itemCheckedListBox.Location = new System.Drawing.Point(12, 37);
             this.itemCheckedListBox.Name = "itemCheckedListBox";
-            this.itemCheckedListBox.Size = new System.Drawing.Size(206, 199);
+            this.itemCheckedListBox.Size = new System.Drawing.Size(190, 184);
             this.itemCheckedListBox.TabIndex = 0;
             this.itemCheckedListBox.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.itemCheckedListBox_ItemCheck);
             // 
             // displayListBox
             // 
             this.displayListBox.FormattingEnabled = true;
-            this.displayListBox.Location = new System.Drawing.Point(232, 37);
+            this.displayListBox.Location = new System.Drawing.Point(226, 37);
             this.displayListBox.Name = "displayListBox";
-            this.displayListBox.Size = new System.Drawing.Size(206, 199);
+            this.displayListBox.Size = new System.Drawing.Size(190, 186);
             this.displayListBox.TabIndex = 1;
             // 
             // CheckedListBoxTestForm

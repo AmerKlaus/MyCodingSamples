@@ -1,0 +1,12 @@
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\bin\Debug\User Defined controls.exe.config
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\bin\Debug\User Defined controls.exe
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\bin\Debug\User Defined controls.pdb
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User_Defined_controls.ClockUserControl.resources
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User_Defined_controls.clockForm.resources
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User_Defined_controls.Properties.Resources.resources
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.exe
+C:\Users\2205182\Desktop\User Defined controls\User Defined controls\obj\Debug\User Defined controls.pdb

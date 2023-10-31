@@ -8,3 +8,14 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\bin\Debug\DateTimePicker control.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\bin\Debug\DateTimePicker control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\bin\Debug\DateTimePicker control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker_control.DateTimePickerForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker_control.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\DateTimePicker control\DateTimePicker control\obj\Debug\DateTimePicker control.pdb

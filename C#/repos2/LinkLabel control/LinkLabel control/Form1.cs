@@ -37,5 +37,12 @@ namespace LinkLabel_control
 
             System.Diagnostics.Process.Start("notepad");
         }
+
+        private void vanierLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            vanierLink.LinkVisited = true;
+
+            System.Diagnostics.Process.Start("http://www.vaniercollege.qc.ca");
+        }
     }
 }

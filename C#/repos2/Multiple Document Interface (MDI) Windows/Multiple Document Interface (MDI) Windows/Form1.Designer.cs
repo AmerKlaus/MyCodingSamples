@@ -40,9 +40,6 @@
             this.tileHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticalToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
-            this.lavendar1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.purple2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.yellow3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +49,7 @@
             this.fIleToolStripMenuItem,
             this.windowToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.windowToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(559, 24);
             this.menuStrip1.TabIndex = 0;
@@ -73,34 +71,34 @@
             this.purpleToolStripMenuItem,
             this.yellowToolStripMenuItem});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.newToolStripMenuItem.Text = "New";
             // 
             // lavendarToolStripMenuItem
             // 
             this.lavendarToolStripMenuItem.Name = "lavendarToolStripMenuItem";
-            this.lavendarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lavendarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.lavendarToolStripMenuItem.Text = "Lavendar Flowers";
             this.lavendarToolStripMenuItem.Click += new System.EventHandler(this.lavendarToolStripMenuItem_Click);
             // 
             // purpleToolStripMenuItem
             // 
             this.purpleToolStripMenuItem.Name = "purpleToolStripMenuItem";
-            this.purpleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.purpleToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.purpleToolStripMenuItem.Text = "Purple Flowers";
             this.purpleToolStripMenuItem.Click += new System.EventHandler(this.purpleToolStripMenuItem_Click);
             // 
             // yellowToolStripMenuItem
             // 
             this.yellowToolStripMenuItem.Name = "yellowToolStripMenuItem";
-            this.yellowToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yellowToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.yellowToolStripMenuItem.Text = "Yellow Flowers";
             this.yellowToolStripMenuItem.Click += new System.EventHandler(this.yellowToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -110,10 +108,7 @@
             this.cascadeToolStripMenuItem,
             this.tileHorizontalToolStripMenuItem,
             this.tileVerticalToolStripMenuItem1,
-            this.tileVerticalToolStripMenuItem,
-            this.lavendar1ToolStripMenuItem1,
-            this.purple2ToolStripMenuItem1,
-            this.yellow3ToolStripMenuItem1});
+            this.tileVerticalToolStripMenuItem});
             this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
             this.windowToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.windowToolStripMenuItem.Text = "Window";
@@ -143,27 +138,6 @@
             // 
             this.tileVerticalToolStripMenuItem.Name = "tileVerticalToolStripMenuItem";
             this.tileVerticalToolStripMenuItem.Size = new System.Drawing.Size(177, 6);
-            // 
-            // lavendar1ToolStripMenuItem1
-            // 
-            this.lavendar1ToolStripMenuItem1.Name = "lavendar1ToolStripMenuItem1";
-            this.lavendar1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.lavendar1ToolStripMenuItem1.Text = "1 Lavendar Flowers";
-            this.lavendar1ToolStripMenuItem1.Click += new System.EventHandler(this.lavendar1ToolStripMenuItem1_Click);
-            // 
-            // purple2ToolStripMenuItem1
-            // 
-            this.purple2ToolStripMenuItem1.Name = "purple2ToolStripMenuItem1";
-            this.purple2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.purple2ToolStripMenuItem1.Text = "2 Purple Flowers";
-            this.purple2ToolStripMenuItem1.Click += new System.EventHandler(this.purple2ToolStripMenuItem1_Click);
-            // 
-            // yellow3ToolStripMenuItem1
-            // 
-            this.yellow3ToolStripMenuItem1.Name = "yellow3ToolStripMenuItem1";
-            this.yellow3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.yellow3ToolStripMenuItem1.Text = "3 Yellow Flowers";
-            this.yellow3ToolStripMenuItem1.Click += new System.EventHandler(this.yellow3ToolStripMenuItem1_Click);
             // 
             // UsingMDIForm
             // 
@@ -196,9 +170,6 @@
         private System.Windows.Forms.ToolStripMenuItem tileHorizontalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tileVerticalToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator tileVerticalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lavendar1ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem purple2ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem yellow3ToolStripMenuItem1;
     }
 }
 

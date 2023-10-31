@@ -15,7 +15,6 @@ namespace ListView_control
     {
 
         string currentDirectory = Directory.GetCurrentDirectory();
-
         public ListViewTestForm()
         {
             InitializeComponent();
@@ -92,8 +91,8 @@ namespace ListView_control
 
         private void ListViewTestForm_Load(object sender, EventArgs e)
         {
-            fileFolderImageList.Images.Add(Properties.Resources.folder);
             fileFolderImageList.Images.Add(Properties.Resources.file);
+            fileFolderImageList.Images.Add(Properties.Resources.folder);
 
             LoadFilesInDirectory(currentDirectory);
             displayLabel.Text = currentDirectory;
