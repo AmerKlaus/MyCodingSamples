@@ -1,0 +1,15 @@
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\VisualInheritanceTest.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\VisualInheritanceTest.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\VisualInheritanceTest.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\Visual Inheritance.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.VisualInheritanceTestForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.csproj.CopyComplete
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\obj\Debug\VisualInheritanceTest.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\Visual Inheritance.dll
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\VisualInheritanceTest\VisualInheritanceTest\bin\Debug\Visual Inheritance.dll.config

@@ -1,0 +1,12 @@
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\bin\Debug\Multiple Document Interface (MDI) Windows.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\bin\Debug\Multiple Document Interface (MDI) Windows.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\bin\Debug\Multiple Document Interface (MDI) Windows.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple_Document_Interface__MDI__Windows.ChildForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple_Document_Interface__MDI__Windows.UsingMDIForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple_Document_Interface__MDI__Windows.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Multiple Document Interface (MDI) Windows\Multiple Document Interface (MDI) Windows\obj\Debug\Multiple Document Interface (MDI) Windows.pdb

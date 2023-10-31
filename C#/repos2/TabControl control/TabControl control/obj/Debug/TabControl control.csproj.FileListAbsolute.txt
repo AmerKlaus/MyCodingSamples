@@ -1,0 +1,11 @@
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\bin\Debug\TabControl control.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\bin\Debug\TabControl control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\bin\Debug\TabControl control.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl_control.UsingTabsForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl_control.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\TabControl control\TabControl control\obj\Debug\TabControl control.pdb

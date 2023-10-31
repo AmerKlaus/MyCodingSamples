@@ -1,0 +1,10 @@
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\bin\Debug\Visual Inheritance.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual Inheritance.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual_Inheritance.VisualInheritanceBaseForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual_Inheritance.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual Inheritance.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual Inheritance.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\bin\Debug\Visual Inheritance.dll.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\bin\Debug\Visual Inheritance.dll
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos2\Visual Inheritance\Visual Inheritance\obj\Debug\Visual Inheritance.dll
