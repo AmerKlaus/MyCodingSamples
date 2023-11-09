@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="mid">
+        <div class="books">
+            <div class="pic">
+                <img src="book1.jpg" height="300px">
+                <p>Essential Computer Science: A Programmer's Guide to Foundational Concepts<br>$62.95</p>
+                <label for="quantity">In Stock: </label>
+                <input type="number" min="1" max="10" value="1">
+            </div>
+            <div class="pic">
+                <img src="book2.jpg" height="300px">
+                <p>Become an App Inventor: The Official Guide from MIT App Inventor: Your Guide to Designing, Building, and Sharing Apps</p>
+                <label for="quantity">In Stock: </label>
+                <input type="number" min="1" max="10" value="1">
+            </div>
+            <div class="pic">
+                <img src="book3.jpg" height="300px">
+                <p>Computer Science: A Very Short Introduction</p>
+                <label for="quantity">In Stock: </label>
+                <input type="number" min="1" max="10" value="1">
+            </div>
+            <div class="pic">
+                <img src="book4.jpg" height="300px">
+                <p>Classic Computer Science Problems in Python</p>
+                <label for="quantity">In Stock: </label>
+                <input type="number" min="1" max="10" value="1">
+            </div>
+        </div>
+        <form>
+            <button type="button" onclick="addCartClick()" id="butn1">CheckOut</button>
+
+            <button type="button" onclick="placeOrderClick()" id="butn2">Reset</button>
+        </form>
+        <table border="1" style="text-align: center; width: 100%;">
+            <tr style="background-color: darkblue; color:white">
+                <th>========U.P.========</th>
+                <th>=======Quantity=======</th>
+                <th>========subtotal========</th>
+            </tr>
+        </table>
+    </div>
+    <script>
+        let price = 0;
+        let text = "";
+        let arr = [];
+        let arrWarranty = [];
+
+        function addCartClick() {
+            let br = document.createElement("br");
+            let itemNumber = document.getElementById("choice").value;
+            if (document.getElementById("waranty").checked) {
+                text = "You added item no. " + itemNumber + " its price " + document.getElementById("price" + itemNumber).innerHTML + " plus warranty 50";
+                price += 50;
+                arrWarranty.push(itemNumber);
+            } else {
+                text = "You added item no. " + itemNumber + " its price " + document.getElementById("price" + itemNumber).innerHTML;
+                arr.push(itemNumber);
+            }
+
+            price = parseFloat(Number(price).toFixed(2)) + parseFloat(Number(getPriceForItem(itemNumber)).toFixed(2));
+
+            document.getElementById("addedCart").style.display = "block";
+            document.getElementById("addedText").append(text);
+            document.getElementById('addedText').append(br.cloneNode());
+            document.getElementById('addedText').append(br.cloneNode());
+
+            document.getElementById("result").value = price;
+        }
+
+    </script>
+</body>
+
+</html>

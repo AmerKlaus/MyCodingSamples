@@ -1,0 +1,50 @@
+body{
+    margin:0;
+}
+table{
+    margin-bottom:2%;
+}
+form #choice{
+    margin-right:1%;
+}
+form #waranty{
+    margin-right:2%;
+}
+h2{
+    margin-top:2%;
+}
+#btn2{
+    margin-left:1%;
+}
+#result{
+    height:35px;
+    color: green;
+    font-weight: bold;
+    font-size:20px;
+}
+#addedCart{
+    margin-bottom:2%;
+    margin-top:1%;
+    display: none;
+}
+.books{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+.pic input{
+    height:20px;
+    width:30px;
+}
+#butn1{
+
+    margin-left:70%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" target=_blank
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" target=_blank href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            updateBorderRadius();
+
+            function updateBorderRadius() {
+                const topRight = $("#top-right").val() + "%";
+                const topLeft = $("#top-left").val() + "%";
+                const bottomRight = $("#bottom-right").val() + "%";
+                const bottomLeft = $("#bottom-left").val() + "%";
+
+                const borderRadius = `${topRight} ${topLeft} ${bottomRight} ${bottomLeft}`;
+                $(".radiusBox").css("border-radius", borderRadius);
+
+                $("#top-right-value").text(topRight);
+                $("#top-left-value").text(topLeft);
+                $("#bottom-right-value").text(bottomRight);
+                $("#bottom-left-value").text(bottomLeft);
+            }
+
+            $(".slider").on("input", updateBorderRadius);
+        });
+    </script>
+</head>
+
+<body class="q2Background">
+    <div class="formDiv">
+        <div class="q2MidDiv">
+            <p>Output:</p>
+            <div class="radiusBox">
+
+            </div>
+            <p>Result:</p>
+            <div class="resultRadius">
+                <span>Border-radius: </span>
+                <span id="top-right-value">0%</span>
+                <span id="top-left-value">0%</span>
+                <span id="bottom-right-value">0%</span>
+                <span id="bottom-left-value">0%</span>
+            </div>
+            <input type="range" id="top-right" class="slider" min="0" max="100">
+            <br>
+            <input type="range" id="top-left" class="slider" min="0" max="100">
+            <br>
+            <input type="range" id="bottom-right" class="slider" min="0" max="100">
+            <br>
+            <input type="range" id="bottom-left" class="slider" min="0" max="100">
+        </div>
+    </div>
+</body>
+
+</html>

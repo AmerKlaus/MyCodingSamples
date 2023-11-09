@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" target=_blank
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" target=_blank href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#text1").on('keypress', function (e) {
+                if (e.keyCode === 13) {
+                    e.preventDefault();
+                    let text = $(this).val();
+                    let i = $(".fa").val();
+                    if (text.trim() !== "") {
+                        let listItem = $(`<div class="divText"><span>${text}</span> <i class="fa fa-trash"></i> <i class="fa fa-check"></i></div>`);
+                        listItem.find(".fa-check").click(function () {
+                            listItem.find("span").css("text-decoration", "line-through");
+                            listItem.css("background-color", "lightgreen");
+                        });
+                        listItem.find(".fa-trash").click(function () {
+                            listItem.slideUp(400, function () {
+                                $(this).remove();
+                            });
+                        });
+                        $(".todo").append(listItem);
+                    }
+                    $(this).val("");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="split">
+    <div class="formDiv">
+        <div class="midDiv">
+            <input type="text" id="text1" placeholder="Add Your New To-Do List" />
+            <div class="todo">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

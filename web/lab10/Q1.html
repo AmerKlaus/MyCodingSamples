@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="mid">
+        <table border="1">
+            <tr style="background-color: darkblue; color:white">
+                <th>Item</th>
+                <th>Picture</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="laptop1.jpg" width="100px" height="80px"></td>
+                <td>ASUS TUF Gaming F15 Gaming Laptop, 15.6” 144Hz FHD Display, Intel Core i5-11400H<br> Processor,
+                    GeForce
+                    RTX 2050, 8GB DDR4 RAM, 512GB PCIe SSD Gen 3, Wi-Fi 6,<br> Windows 11, FX506HF-AS51-CA</td>
+                <td id="price1">799$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="laptop2.jpg" width="100px" height="80px"></td>
+                <td>Acer Aspire 5, 15.6" FHD IPS Laptop, AMD Ryzen 7 5700U, AMD Radeon RX Vega 8,<br> 8 RAM, 512GB SSD,
+                    Windows 11</td>
+                <td id="price2">925.49$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="laptop3.jpg" width="100px" height="80px"></td>
+                <td>DELL Latitude 7200 2-in-1 Tablet Laptop, 12.3in Touchscreen FHD(1920x1080), <br>Intel Core i7-8665U
+                    up to 4.80 GHz, 16GB RAM 512GB SSD, Backlit Keyboard,<br> Windows 10 Pro (Renewed)</td>
+                <td id="price3">449.63$</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="desktop4.jpg" width="100px" height="80px"></td>
+                <td>Dell RGB Gaming Desktop Computer, Intel Quad Core I7 up to 3.9GHz, <br>Radeon RX 5500 XT 8G GDDR6,
+                    32GB Memory, 2T SSD, RGB Keyboard<br> & Mouse, 600M WiFi & Bluetooth, Win 10 Pro (Renewed)</td>
+                <td id="price4">549.99$</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="desktop5.jpg" width="100px" height="120px"></td>
+                <td>HP Pavilion Desktop, AMD Ryzen 3 5300G Processor, AMD Radeon Graphics,<br> 8 GB RAM, 256 GB SSD,
+                    Windows 11 Home (TP01-2009, Natural Silver)</td>
+                <td id="price5">688.92$</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="desktop6.jpg" width="100px" height="120px"></td>
+                <td>ROG Strix G10DK Gaming Desktop PC, AMD Ryzen 5 3600X, GeForce GTX 1660TI,<br> 12GB DDR4 RAM, 512GB
+                    PCIe SSD, Wi-Fi 6, Windows 11 Home,<br> G10DK-BSR56XTI-CB Grey</td>
+                <td id="price6">799$</td>
+            </tr>
+        </table>
+        <form>
+            <label for="choice">Your Choice: </label>
+            <input type="text" id="choice" size="5px" required />
+
+            <label for="waranty">Add Waranty 50$: </label>
+            <input type="checkbox" id="waranty" />
+
+            <button type="button" onclick="addCartClick()" id="btn1">Add to Cart</button> <br>
+
+            <h2>Your Cart:</h2>
+
+            <div id="addedCart">
+                <div id="addedText">
+
+                </div>
+                <input type="text" id="deleteChoice" />
+                <button type="button" onclick="deleteItemClick()" id="btn3">Delete</button>
+            </div>
+
+            <label for="result" style="font-weight: bold;">Total Price: </label>
+            <input type="text" id="result" size="50px" readonly>$
+
+            <button type="button" onclick="placeOrderClick()" id="btn2">Place The Order</button>
+        </form>
+
+    </div>
+    <script>
+        let price = 0;
+        let text = "";
+        let arr = [];
+        let arrWarranty = [];
+
+        function addCartClick() {
+            let br = document.createElement("br");
+            let itemNumber = document.getElementById("choice").value;
+            if (document.getElementById("waranty").checked) {
+                text = "You added item no. " + itemNumber + " its price " + document.getElementById("price" + itemNumber).innerHTML + " plus warranty 50";
+                price += 50;
+                arrWarranty.push(itemNumber);
+            } else {
+                text = "You added item no. " + itemNumber + " its price " + document.getElementById("price" + itemNumber).innerHTML;
+                arr.push(itemNumber);
+            }
+
+            price = parseFloat(Number(price).toFixed(2)) + parseFloat(Number(getPriceForItem(itemNumber)).toFixed(2));
+
+            document.getElementById("addedCart").style.display = "block";
+            document.getElementById("addedText").append(text);
+            document.getElementById('addedText').append(br.cloneNode());
+            document.getElementById('addedText').append(br.cloneNode());
+
+            document.getElementById("result").value = price;
+        }
+
+        function placeOrderClick() {
+            alert("Thanks for your purchase. Your order has been placed. Your total cost was $" + price + ".");
+        }
+
+        function deleteItemClick() {
+            let itemNumber = document.getElementById("deleteChoice").value;
+
+            if (arr.includes(itemNumber)) {
+                price = parseFloat(Number(price).toFixed(2)) - parseFloat(Number(getPriceForItem(itemNumber)).toFixed(2));
+                price = Number(price).toFixed(2);
+                let i = arr.findIndex(item => item == itemNumber);
+                if (i >= 0) { //check if item found
+                    var removed = arr.splice(i, 1);
+                }
+            }
+
+            if (arrWarranty.includes(itemNumber)) {
+                price = parseFloat(Number(price).toFixed(2)) - parseFloat(Number((getPriceForItem(itemNumber) + 50)).toFixed(2));
+                price = Number(price).toFixed(2);
+                let i = arrWarranty.findIndex(item => item == itemNumber);
+                if (i >= 0) { //check if item found
+                    var removed = arrWarranty.splice(i, 1);
+                }
+            }
+
+            document.getElementById("result").value = price;
+        }
+
+
+        function getPriceForItem(itemNumber) {
+            switch (itemNumber) {
+                case '1':
+                case '6':
+                    return 799;
+                case '2':
+                    return 925.49;
+                case '3':
+                    return 449.63;
+                case '4':
+                    return 549.99;
+                case '5':
+                    return 688.92;
+                default:
+                    return 0;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
