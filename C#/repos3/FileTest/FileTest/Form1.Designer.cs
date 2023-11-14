@@ -30,7 +30,7 @@
         {
             this.messageLabel = new System.Windows.Forms.Label();
             this.inputTextBox = new System.Windows.Forms.TextBox();
-            this.outputTextBox = new System.Windows.Forms.TextBox();
+            this.outputTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // messageLabel
@@ -53,13 +53,11 @@
             // 
             // outputTextBox
             // 
-            this.outputTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.outputTextBox.Location = new System.Drawing.Point(12, 51);
-            this.outputTextBox.Multiline = true;
+            this.outputTextBox.Location = new System.Drawing.Point(13, 52);
             this.outputTextBox.Name = "outputTextBox";
-            this.outputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.outputTextBox.Size = new System.Drawing.Size(422, 293);
+            this.outputTextBox.Size = new System.Drawing.Size(421, 316);
             this.outputTextBox.TabIndex = 2;
+            this.outputTextBox.Text = "";
             // 
             // FileTestForm
             // 
@@ -80,7 +78,7 @@
 
         private System.Windows.Forms.Label messageLabel;
         private System.Windows.Forms.TextBox inputTextBox;
-        private System.Windows.Forms.TextBox outputTextBox;
+        private System.Windows.Forms.RichTextBox outputTextBox;
     }
 }
 

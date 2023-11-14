@@ -8,13 +8,13 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrar
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.pdb
-C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll.config
-C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\bin\Debug\BankLibrary.pdb
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csproj.AssemblyReference.cache
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.BankUIForm.resources
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.Properties.Resources.resources
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csproj.GenerateResource.cache
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csproj.CoreCompileInputs.cache
-C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
 C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
