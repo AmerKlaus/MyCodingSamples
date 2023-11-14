@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.LINQToFileDirectoryForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb

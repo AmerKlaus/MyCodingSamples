@@ -1,0 +1,10 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.FileTestForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.pdb

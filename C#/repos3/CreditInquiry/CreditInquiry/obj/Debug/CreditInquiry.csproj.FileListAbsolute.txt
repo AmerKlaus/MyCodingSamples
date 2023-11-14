@@ -1,0 +1,14 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\CreditInquiry.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\CreditInquiry.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\CreditInquiry.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\BankLibrary.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\BankLibrary.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\bin\Debug\BankLibrary.dll.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.CreditInquiryForm.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.csproj.CopyComplete
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreditInquiry\CreditInquiry\obj\Debug\CreditInquiry.pdb

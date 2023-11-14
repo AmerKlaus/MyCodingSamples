@@ -1,0 +1,14 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\CreateFile.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\CreateFile.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\CreateFile.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\BankLibrary.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\BankLibrary.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\bin\Debug\BankLibrary.dll.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.csproj.CopyComplete
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\CreateFile\CreateFile\obj\Debug\CreateFile.CreateFileForm.resources
