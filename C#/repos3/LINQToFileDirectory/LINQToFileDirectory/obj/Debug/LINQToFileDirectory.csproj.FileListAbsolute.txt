@@ -8,3 +8,14 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LI
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\bin\Debug\LINQToFileDirectory.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.LINQToFileDirectoryForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\LINQToFileDirectory\LINQToFileDirectory\obj\Debug\LINQToFileDirectory.pdb

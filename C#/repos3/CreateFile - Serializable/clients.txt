@@ -1,0 +1,5 @@
+135,Amer,Al Jawabra,-18.65
+245,Ghassan,Al Jawabra,689.34
+355,Maisoun,Al Najem,865.45
+465,Ganem,Al Jawabra,325.85
+575,Thneya,Al Jawabra,0.00

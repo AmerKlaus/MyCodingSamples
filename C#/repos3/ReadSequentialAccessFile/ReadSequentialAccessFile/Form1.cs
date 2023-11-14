@@ -9,16 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Runtime.Serialization;
 
 
 namespace ReadSequentialAccessFile
 {
     public partial class ReadSequentialAccessFileForm : BankUIForm
     {
-        private BinaryFormatter reader = new BinaryFormatter();
-        private FileStream input;
+        private StreamReader fileReader;
         public ReadSequentialAccessFileForm()
         {
             InitializeComponent();
@@ -46,11 +43,22 @@ namespace ReadSequentialAccessFile
                 }
                 else
                 {
-                    input = new FileStream(
-                        fileName, FileMode.Open, FileAccess.Read);
+                    try
+                    {
+                        FileStream input = new FileStream(
+                            fileName, FileMode.Open, FileAccess.Read);
 
-                    openButton.Enabled = false;
-                    nextButton.Enabled = true;
+                        fileReader = new StreamReader(input);
+
+                        openButton.Enabled = false;
+                        nextButton.Enabled = true;
+                    }
+                    catch (IOException)
+                    {
+                        MessageBox.Show("Error reading from file",
+                            "File Error", MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }
                 }
             }
         }
@@ -59,28 +67,29 @@ namespace ReadSequentialAccessFile
         {
             try
             {
-                RecordSerializable record =
-                    (RecordSerializable)reader.Deserialize(input);
+                var inputRecord = fileReader.ReadLine();
 
-                var values = new string[] {
-                    record.Account.ToString(),
-                    record.FirstName.ToString(),
-                    record.LastName.ToString(),
-                    record.Balance.ToString()
-                };
+                if (inputRecord != null)
+                {
+                    string[] inputFields = inputRecord.Split(',');
 
-                SetTextBoxValues(values);
+                    SetTextBoxValues(inputFields);
+                }
+                else
+                {
+                    fileReader.Close();
+                    openButton.Enabled = true;
+                    nextButton.Enabled = false;
+                    ClearTextBoxes();
+
+                    MessageBox.Show("No more records in file", string.Empty,
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
-            catch (SerializationException)
+            catch (IOException)
             {
-                input?.Close();
-                openButton.Enabled = true;
-                nextButton.Enabled = false;
-
-                ClearTextBoxes();
-
-                MessageBox.Show("No more records in file", string.Empty,
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Error Reading from File", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

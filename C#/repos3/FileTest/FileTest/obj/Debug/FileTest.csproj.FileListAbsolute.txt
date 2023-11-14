@@ -8,3 +8,14 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\bin\Debug\FileTest.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.FileTestForm.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\repos3\FileTest\FileTest\obj\Debug\FileTest.pdb
