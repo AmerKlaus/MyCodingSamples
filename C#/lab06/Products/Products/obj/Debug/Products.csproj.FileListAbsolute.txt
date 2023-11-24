@@ -1,0 +1,12 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\ProductDB.mdf
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\ProductDB_log.ldf
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.pdb

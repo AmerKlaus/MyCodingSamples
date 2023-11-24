@@ -1,0 +1,12 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\bin\Debug\ProductDB.mdf
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\bin\Debug\ProductDB_log.ldf
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\bin\Debug\Product Lookup.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\bin\Debug\Product Lookup.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\bin\Debug\Product Lookup.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product Lookup.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product_Lookup.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product_Lookup.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product Lookup.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product Lookup.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product Lookup.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Lookup\Product Lookup\obj\Debug\Product Lookup.pdb
