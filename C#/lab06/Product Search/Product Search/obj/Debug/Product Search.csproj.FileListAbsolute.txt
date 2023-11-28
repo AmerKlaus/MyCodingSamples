@@ -10,3 +10,16 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Search\Product 
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\bin\Debug\ProductDB.mdf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\bin\Debug\ProductDB_log.ldf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\bin\Debug\Product Search.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\bin\Debug\Product Search.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\bin\Debug\Product Search.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product_Search.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product_Search.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Product Search\Product Search\obj\Debug\Product Search.pdb

@@ -22,6 +22,7 @@ namespace Retrieving_JSON_data_from_RESTful_Web_APIs
         public Form1()
         {
             InitializeComponent();
+            GetEmployeeData();
         }
 
         private void GetEmployeeData()
@@ -53,12 +54,10 @@ namespace Retrieving_JSON_data_from_RESTful_Web_APIs
         {
             if (employeeData != null && employeeData.data != null && employeeData.data.Length > 0)
             {
-                var currentRecord = employeeData.data[currentIndex];
-
-                idTextBox.Text = currentRecord.id.ToString();
-                nameTextBox.Text = currentRecord.employee_name;
-                salaryTextBox.Text = currentRecord.employee_salary.ToString();
-                ageTextBox.Text = currentRecord.employee_age.ToString();
+                idTextBox.Text = employeeData.data[currentIndex].id.ToString();
+                nameTextBox.Text = employeeData.data[currentIndex].employee_name;
+                salaryTextBox.Text = employeeData.data[currentIndex].employee_salary.ToString("c");
+                ageTextBox.Text = employeeData.data[currentIndex].employee_age.ToString();
             }
             else
             {
@@ -68,7 +67,12 @@ namespace Retrieving_JSON_data_from_RESTful_Web_APIs
 
         private void previousButton_Click(object sender, EventArgs e)
         {
-            if (currentIndex > 0)
+            if (currentIndex == 0)
+            {
+                currentIndex = employeeData.data.Length - 1;
+                DisplayCurrentRecord();
+            }
+            else
             {
                 currentIndex--;
                 DisplayCurrentRecord();
@@ -77,7 +81,12 @@ namespace Retrieving_JSON_data_from_RESTful_Web_APIs
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-            if (employeeData != null && currentIndex < employeeData.data.Length - 1)
+            if (employeeData != null && currentIndex == employeeData.data.Length - 1)
+            {
+                currentIndex = 0;
+                DisplayCurrentRecord();
+            }
+            else if(employeeData != null && currentIndex < employeeData.data.Length - 1)
             {
                 currentIndex++;
                 DisplayCurrentRecord();

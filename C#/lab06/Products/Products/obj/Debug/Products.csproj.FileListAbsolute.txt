@@ -10,3 +10,16 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\D
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\ProductDB.mdf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\ProductDB_log.ldf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\bin\Debug\Products.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\Products\Products\obj\Debug\Products.pdb

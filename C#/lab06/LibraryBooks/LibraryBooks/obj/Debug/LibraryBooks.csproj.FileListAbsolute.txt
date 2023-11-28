@@ -10,3 +10,16 @@ C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBoo
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.csproj.CoreCompileInputs.cache
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.exe
 C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\bin\Debug\BookDatabase.mdf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\bin\Debug\BookDatabase_log.ldf
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\bin\Debug\LibraryBooks.exe.config
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\bin\Debug\LibraryBooks.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\bin\Debug\LibraryBooks.pdb
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.csproj.AssemblyReference.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.Form1.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.Properties.Resources.resources
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.csproj.GenerateResource.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.csproj.CoreCompileInputs.cache
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.exe
+C:\Users\2205182\Desktop\MyCodingSamples\C#\lab06\LibraryBooks\LibraryBooks\obj\Debug\LibraryBooks.pdb
