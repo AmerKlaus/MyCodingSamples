@@ -1,0 +1,39 @@
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.csproj.AssemblyReference.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving_JSON_data_from_RESTful_Web_APIs.Form1.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving_JSON_data_from_RESTful_Web_APIs.Properties.Resources.resources
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.csproj.GenerateResource.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.csproj.CoreCompileInputs.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Retrieving JSON data from RESTful Web APIs.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Retrieving JSON data from RESTful Web APIs.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Retrieving JSON data from RESTful Web APIs.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\JSONRestAPIReadConsole.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\RestSharp.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Buffers.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Memory.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Text.Json.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.ValueTuple.dll
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\JSONRestAPIReadConsole.pdb
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\JSONRestAPIReadConsole.dll.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\JSONRestAPIReadConsole.exe.config
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\RestSharp.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Buffers.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Memory.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Text.Json.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\bin\Debug\System.ValueTuple.xml
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.csproj.CopyComplete
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.exe
+C:\Users\Amer-\OneDrive\Desktop\MyCodingSamples\C#\Retrieving JSON data from RESTful Web APIs\Retrieving JSON data from RESTful Web APIs\obj\Debug\Retrieving JSON data from RESTful Web APIs.pdb
