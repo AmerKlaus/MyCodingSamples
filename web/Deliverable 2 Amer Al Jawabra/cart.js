@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h2>${product.name}</h2>
                 <p>$${product.price.toFixed(2)}</p>
                 <p>Quantity: ${product.quantity}</p>
-                <button onclick="removeProductFromCart(${product.id})">Remove</button>
+                <button id="removeCartButton" onclick="removeProductFromCart(${product.id})">Remove</button>
             `;
 
             cartContainer.appendChild(cartProductDiv);

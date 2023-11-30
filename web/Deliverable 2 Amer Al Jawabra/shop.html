@@ -1,3 +1,9 @@
+<!-------------------------------------------------------
+Final Project
+Written by: Amer Al Jawabra 2205182
+For “Internet Programming” Section 1 - Fall 2023
+-------------------------------------------------------->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +34,7 @@
     <main>
         <div class="filter-options">
             <label for="category">Filter by Category:</label>
-            <select id="category" onchange="filterProducts()">
+            <select id="category">
                 <option value="all">All Categories</option>
                 <option value="laptops">Laptops</option>
                 <option value="desktops">Desktops</option>
@@ -36,7 +42,7 @@
             </select>
 
             <label for="sort">Sort by:</label>
-            <select id="sort" onchange="sortProducts()">
+            <select id="sort">
                 <option value="price-asc">Price (Low to High)</option>
                 <option value="price-desc">Price (High to Low)</option>
             </select>
@@ -77,7 +83,7 @@
         </div>
     </footer>
 
-    <script src="shop.js"></script>
+    <script type="module" src="shop.js"></script>
 </body>
 
 </html>

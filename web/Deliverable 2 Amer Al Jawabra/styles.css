@@ -356,6 +356,15 @@ main {
     background-color: #46b8da;
 }
 
+/* Media Queries for Responsive Design */
+
+@media (max-width: 500px) {
+    .cart-product {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Contact Page */
 .container {
     max-width: 600px;

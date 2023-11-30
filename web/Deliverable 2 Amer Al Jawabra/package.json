@@ -1,0 +1,14 @@
+{
+  "name": "deliverable-2-amer-al-jawabra",
+  "version": "1.0.0",
+  "description": "My name is Amer Al Jawabra, and this project is my own individual work.",
+  "main": "cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
