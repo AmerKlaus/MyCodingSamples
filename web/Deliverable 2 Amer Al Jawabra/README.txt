@@ -52,6 +52,8 @@ Manage the shopping cart by adjusting quantities or removing items.
 
 Proceed to checkout to place an order.
 
+Must download Node.js and run "install npm" command in the visual studio code terminal.
+
 Acknowledgments:
 
 The videos I used in the Product Details page are not owned by me; I mentioned each author's name under the video
