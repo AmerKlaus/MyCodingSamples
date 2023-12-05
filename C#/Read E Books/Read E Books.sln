@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read E Books", "Read E Books\Read E Books.csproj", "{DA3B708B-C7A2-4C5A-BFC7-2B97CCF477B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3B708B-C7A2-4C5A-BFC7-2B97CCF477B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3B708B-C7A2-4C5A-BFC7-2B97CCF477B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3B708B-C7A2-4C5A-BFC7-2B97CCF477B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3B708B-C7A2-4C5A-BFC7-2B97CCF477B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06899B25-FD6C-452B-A118-821B75B986CB}
+	EndGlobalSection
+EndGlobal
