@@ -1,0 +1,84 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Interface',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter Interface'),
+        ),
+        backgroundColor: Colors.green, // Set background color to green
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 50,
+              ),
+              Image.asset(
+                'assets/flutter.png', // Change this to the path of your Flutter image
+                width: 200,
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Text(
+                'Random Text Logo', // Replace this with your random text logo
+                style: TextStyle(fontSize: 24, color: Colors.white), // Text color set to white
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              ContactInfo(icon: Icons.phone, text: '+1234567890'),
+              SizedBox(height: 20),
+              ContactInfo(icon: Icons.email, text: 'example@email.com'),
+              SizedBox(height: 20),
+              ContactInfo(icon: Icons.phone, text: '@twitterhandle'),
+              SizedBox(height: 20),
+              ContactInfo(icon: Icons.email, text: '@githubusername'),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class ContactInfo extends StatelessWidget {
+  final IconData icon;
+  final String text;
+
+  const ContactInfo({Key? key, required this.icon, required this.text}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 250,
+      height: 50,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(10),
+      ),
+      padding: EdgeInsets.symmetric(horizontal: 20),
+      child: Row(
+        children: [
+          Icon(icon, color: Colors.green), // Set icon color to green
+          SizedBox(width: 10),
+          Text(
+            text,
+            style: TextStyle(color: Colors.green), // Text color set to green
+          ),
+        ],
+      ),
+    );
+  }
+}

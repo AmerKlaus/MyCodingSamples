@@ -1,0 +1,75 @@
+import 'dart:math';
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Dice Roller',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: DiceRoller(),
+    );
+  }
+}
+
+class DiceRoller extends StatefulWidget {
+  @override
+  _DiceRollerState createState() => _DiceRollerState();
+}
+
+class _DiceRollerState extends State<DiceRoller> {
+  int dice1 = 1;
+  int dice2 = 1;
+
+  void rollDice() {
+    setState(() {
+      dice1 = Random().nextInt(6) + 1;
+      dice2 = Random().nextInt(6) + 1;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Dice Roller'),
+      ),
+      backgroundColor: Color(0xFFFFA500), // Orange color
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Image.asset('assets/$dice1.png', width: 100, height: 100),
+                Image.asset('assets/$dice2.png', width: 100, height: 100),
+              ],
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: rollDice,
+              child: Text('Roll Dice'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.white, // White button color
+                onPrimary: Color(0xFFFFA500), // Orange text color
+              ),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Total: ${dice1 + dice2}',
+              style: TextStyle(fontSize: 20, color: Colors.white), // White text color
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
