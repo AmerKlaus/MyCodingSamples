@@ -1,0 +1,915 @@
+package project;
+
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.Scanner;
+import java.util.ArrayList;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.GsonBuilder;
+import java.lang.reflect.Type;
+
+/**
+ *
+ * @author Amer-
+ */
+public class Driver {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Gson gson = new GsonBuilder().create();
+        File f1 = new File("external.json");
+        File f2 = new File("movie.json");
+        File f3 = new File("rent.json");
+        File f4 = new File("student.json");
+        FileWriter fw;
+        FileReader fr;
+        BufferedReader br;
+        try {
+            f1.createNewFile();
+            f2.createNewFile();
+            f3.createNewFile();
+            f4.createNewFile();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+        Type lte = new TypeToken<ArrayList<External_Member>>() {
+        }.getType();
+        Type lts = new TypeToken<ArrayList<Student>>() {
+        }.getType();
+        Type ltm = new TypeToken<ArrayList<Movie>>() {
+        }.getType();
+        Type ltr = new TypeToken<ArrayList<Rent_Movie>>() {
+        }.getType();
+        ArrayList<External_Member> convertedJSON; // external member
+        ArrayList<Student> convertedJSON2; // student
+        ArrayList<Movie> convertedJSON3; // movie
+        ArrayList<Rent_Movie> convertedJSON4; // rent_movie
+        boolean flag = true;
+        while (flag) {
+            System.out.println("Menu\n1- Add member 2- Add movie 3- Borrow movie 4- Return movie 5- Show members list 6- Show movies list 7- Delete member 8- Delete movie 9- Exit"
+                    + "\nEnter your choice: ");
+            String choice = in.next();
+            switch (choice) {
+                case "1": {
+                    String id = "";
+                    boolean flag1 = true;
+                    while (flag1) {
+                        flag1 = true;
+                        try { // to check if id already exists
+                            System.out.println("Enter member id: ");
+                            id = in.next();
+                            fr = new FileReader("external.json");
+                            br = new BufferedReader(fr);
+                            FileReader fr2 = new FileReader("student.json");
+                            BufferedReader br2 = new BufferedReader(fr2);
+                            convertedJSON = gson.fromJson(br, lte);
+                            convertedJSON2 = gson.fromJson(br2, lts);
+                            if (convertedJSON != null) {
+                                for (int i = 0; i < convertedJSON.size(); i++) {
+                                    if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                        flag1 = false;
+                                    }
+                                }
+                                if (flag1 == false) {
+                                    throw new Exception();
+                                }
+                            }
+                            if (convertedJSON2 != null) {
+                                for (int i = 0; i < convertedJSON2.size(); i++) {
+                                    if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                        flag1 = false;
+                                    }
+                                }
+                                if (flag1 == false) {
+                                    throw new Exception();
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Member already exists!");
+                            break;
+                        }
+                        boolean flag2 = true;
+                        while (flag2) { // to determine whether member is external or student
+                            System.out.println("What is your member status: 1- External Member 2- Student");
+                            String memStat = in.next();
+                            if (memStat.equals("1")) {// for external member
+                                System.out.println("Enter job name: ");
+                                String job = in.next();
+                                System.out.println("Enter organization name: ");
+                                String orgName = in.next();
+                                ArrayList<External_Member> ae = new ArrayList<>();
+                                try { // reading and writing external member into a file
+                                    if (f1.exists()) {
+                                        fr = new FileReader("external.json");
+                                        br = new BufferedReader(fr);
+                                        convertedJSON = gson.fromJson(br, lte);
+                                    } else {
+                                        convertedJSON = null;
+                                    }
+                                    External_Member temp = new External_Member(id, "External Member", job, orgName);
+                                    fw = new FileWriter("external.json");
+                                    if (convertedJSON == null) {
+                                        ae.add(temp);
+                                        fw.write(gson.toJsonTree(ae, lte).toString());
+                                        fw.close();
+                                    } else {
+                                        convertedJSON.add(temp);
+                                        fw.write(gson.toJsonTree(convertedJSON, lte).toString());
+                                        fw.close();
+                                    }
+                                } catch (Exception e) {
+                                    System.out.println(e);
+                                }
+                                flag2 = false;
+                            } else if (memStat.equals("2")) { // for student
+                                System.out.println("Enter school name: ");
+                                String schoolName = in.next();
+                                System.out.println("Enter Grade: ");
+                                double grade = in.nextDouble();
+                                ArrayList<Student> as = new ArrayList<>();
+                                try { // reading and writing student into a file
+                                    if (f4.exists()) {
+                                        fr = new FileReader("student.json");
+                                        br = new BufferedReader(fr);
+                                        convertedJSON2 = gson.fromJson(br, lts);
+                                    } else {
+                                        convertedJSON2 = null;
+                                    }
+                                    Student temp = new Student(id, "Student", schoolName, grade);
+                                    fw = new FileWriter("student.json");
+                                    if (convertedJSON2 == null) {
+                                        as.add(temp);
+                                        fw.write(gson.toJsonTree(as, lts).toString());
+                                        fw.close();
+                                    } else {
+                                        convertedJSON2.add(temp);
+                                        fw.write(gson.toJsonTree(convertedJSON2, lts).toString());
+                                        fw.close();
+                                    }
+                                } catch (Exception e) {
+                                    System.out.println(e);
+                                }
+                                flag2 = false;
+                            } else {
+                                System.out.println("Invalid entry!");
+                            }
+                        }
+                        break;
+                    }
+                }
+                break;
+                case "2": {
+                    String movieName = "";
+                    boolean flag1 = true;
+                    while (flag1) {
+                        flag1 = true;
+                        try { // to determine if movie name already exists
+                            System.out.println("Enter movie name: ");
+                            movieName = in.next();
+                            fr = new FileReader("movie.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON3 = gson.fromJson(br, ltm);
+                            if (convertedJSON3 != null) {
+                                for (int i = 0; i < convertedJSON3.size(); i++) {
+                                    if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                        flag1 = false;
+                                    }
+                                }
+                                if (flag1 == false) {
+                                    throw new Exception();
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Movie already exists!");
+                            break;
+                        }
+                        ArrayList<Movie> am = new ArrayList<>();
+                        try { // reading and writing movie into a file
+                            if (f2.exists()) {
+                                fr = new FileReader("movie.json");
+                                br = new BufferedReader(fr);
+                                convertedJSON3 = gson.fromJson(br, ltm);
+                            } else {
+                                convertedJSON3 = null;
+                            }
+                            Movie temp = new Movie(movieName);
+                            fw = new FileWriter("movie.json");
+                            if (convertedJSON3 == null) {
+                                am.add(temp);
+                                fw.write(gson.toJsonTree(am, ltm).toString());
+                                fw.close();
+                            } else {
+                                convertedJSON3.add(temp);
+                                fw.write(gson.toJsonTree(convertedJSON3, ltm).toString());
+                                fw.close();
+                            }
+                        } catch (Exception e) {
+                            System.out.println(e);
+                        }
+                        break;
+                    }
+                }
+                break;
+                case "3": {
+                    String id = "";
+                    String movieName = "";
+                    boolean flag1 = true;
+                    while (flag1) {
+                        boolean flag2 = false;
+                        try { // to check if id exists
+                            System.out.println("Enter member ID: ");
+                            id = in.next();
+                            fr = new FileReader("external.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON = gson.fromJson(br, lte);
+                            FileReader fr2 = new FileReader("student.json");
+                            BufferedReader br2 = new BufferedReader(fr2);
+                            convertedJSON2 = gson.fromJson(br2, lts);
+                            if (convertedJSON != null) {
+                                for (int i = 0; i < convertedJSON.size(); i++) {
+                                    if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                        flag2 = true;
+                                    }
+                                }
+                            }
+                            if (convertedJSON2 != null) {
+                                for (int i = 0; i < convertedJSON2.size(); i++) {
+                                    if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                        flag2 = true;
+                                    }
+                                }
+                            }
+                            if (flag2 == false) {
+                                throw new Exception();
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Member does not exist!");
+                            break;
+                        }
+                        try { // to check if movie name exists
+                            flag2 = false;
+                            System.out.println("Enter movie name: ");
+                            movieName = in.next();
+                            fr = new FileReader("movie.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON3 = gson.fromJson(br, ltm);
+                            if (convertedJSON3 != null) {
+                                for (int i = 0; i < convertedJSON3.size(); i++) {
+                                    if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                        flag2 = true;
+                                    }
+                                }
+                                if (flag2 == false) {
+                                    throw new Exception();
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Movie does not exist!");
+                            break;
+                        }
+                        try { // to check if movie is available
+                            fr = new FileReader("movie.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON3 = gson.fromJson(br, ltm);
+                            for (int i = 0; i < convertedJSON3.size(); i++) {
+                                if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                    if (convertedJSON3.get(i).avaliability == false) {
+                                        throw new Exception();
+                                    }
+                                }
+                            }
+
+                        } catch (Exception e) {
+                            System.out.println("Movie not avaliable!");
+                            break;
+                        }
+                        ArrayList<Rent_Movie> ar = new ArrayList<>();
+                        try { // to add id and movie name to rent file
+                            if (f3.exists()) {
+                                fr = new FileReader("rent.json");
+                                br = new BufferedReader(fr);
+                                convertedJSON4 = gson.fromJson(br, ltr);
+                            } else {
+                                convertedJSON4 = null;
+                            }
+                            Rent_Movie temp = new Rent_Movie(id, movieName);
+                            fw = new FileWriter("rent.json");
+                            if (convertedJSON4 == null) {
+                                ar.add(temp);
+                                fw.write(gson.toJsonTree(ar, ltr).toString());
+                                fw.close();
+                            } else {
+                                convertedJSON4.add(temp);
+                                fw.write(gson.toJsonTree(convertedJSON4, ltr).toString());
+                                fw.close();
+                            }
+                            FileReader fr2 = new FileReader("movie.json");
+                            BufferedReader br2 = new BufferedReader(fr2);
+                            convertedJSON3 = gson.fromJson(br2, ltm);
+                            for (int i = 0; i < convertedJSON3.size(); i++) { // to update the availability of the movie name
+                                if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                    convertedJSON3.get(i).isMovieBorrowed(true);
+                                    FileWriter fw2 = new FileWriter("movie.json");
+                                    fw2.write(gson.toJsonTree(convertedJSON3, ltm).toString());
+                                    fw2.close();
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println(e);
+                        }
+                        break;
+                    }
+                }
+                break;
+                case "4": {
+                    String id = "";
+                    String movieName = "";
+                    boolean flag1 = true;
+                    while (flag1) {
+                        boolean flag2 = false;
+                        try {
+                            System.out.println("Enter member ID: ");
+                            id = in.next();
+                            fr = new FileReader("external.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON = gson.fromJson(br, lte);
+                            FileReader fr2 = new FileReader("student.json");
+                            BufferedReader br2 = new BufferedReader(fr2);
+                            convertedJSON2 = gson.fromJson(br2, lts);
+                            if (convertedJSON != null) {
+                                for (int i = 0; i < convertedJSON.size(); i++) {
+                                    if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                        flag2 = true;
+                                    }
+                                }
+                            }
+                            if (convertedJSON2 != null) {
+                                for (int i = 0; i < convertedJSON2.size(); i++) {
+                                    if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                        flag2 = true;
+                                    }
+                                }
+                            }
+                            if (flag2 == false) {
+                                throw new Exception();
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Member does not exist!");
+                            break;
+                        }
+                        try {
+                            flag2 = false;
+                            System.out.println("Enter movie name: ");
+                            movieName = in.next();
+                            fr = new FileReader("movie.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON3 = gson.fromJson(br, ltm);
+                            if (convertedJSON3 != null) {
+                                for (int i = 0; i < convertedJSON3.size(); i++) {
+                                    if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                        flag2 = true;
+                                    }
+                                }
+                                if (flag2 == false) {
+                                    throw new Exception();
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Movie does not exist!");
+                            break;
+                        }
+                        try {
+                            fr = new FileReader("rent.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON4 = gson.fromJson(br, ltr);
+                            boolean match = false;
+                            for (int i = 0; i < convertedJSON4.size(); i++) {
+                                if (convertedJSON4.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                    match = true;
+                                    if (convertedJSON4.get(i).memberId.equalsIgnoreCase(id)) { // to check if movie name and id match in rent file
+                                        for (int j = 0; j < convertedJSON3.size(); j++) {
+                                            if (convertedJSON3.get(j).movieName.equalsIgnoreCase(movieName)) { // to update the availability of the movie name and remove relationship from rent file
+                                                FileReader fr2 = new FileReader("movie.json");
+                                                BufferedReader br2 = new BufferedReader(fr2);
+                                                convertedJSON3 = gson.fromJson(br2, ltm);
+                                                convertedJSON3.get(j).isMovieReturned(true);
+                                                FileWriter fw2 = new FileWriter("movie.json");
+                                                fw2.write(gson.toJsonTree(convertedJSON3, ltm).toString());
+                                                fw2.close();
+                                            }
+                                        }
+                                        convertedJSON4.remove(i);
+                                        fw = new FileWriter("rent.json");
+                                        fw.write(gson.toJsonTree(convertedJSON4, ltr).toString());
+                                        fw.close();
+                                    } else {
+                                        throw new Exception();
+                                    }
+                                }
+                            }
+                            if (match == false) {
+                                throw new Exception();
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Values do not match/do not exist!");
+                            break;
+                        }
+                        System.out.println("Enter amount of nights movie is kept: ");
+                        int nightsMovieKept = in.nextInt();
+                        try { // to calculate the fee for amount of nights movie was kept
+                            if (convertedJSON != null) {
+                                for (int i = 0; i < convertedJSON.size(); i++) {
+                                    if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                        fr = new FileReader("external.json");
+                                        br = new BufferedReader(fr);
+                                        convertedJSON = gson.fromJson(br, lte);
+                                        convertedJSON.get(i).nightsMovieKept = nightsMovieKept;
+                                        System.out.println("Payment amount for the movie is: $" + convertedJSON.get(i).calculate());
+                                        fw = new FileWriter("external.json");
+                                        fw.write(gson.toJsonTree(convertedJSON, lte).toString());
+                                        fw.close();
+                                    }
+                                }
+                            }
+                            if (convertedJSON2 != null) {
+                                for (int i = 0; i < convertedJSON2.size(); i++) {
+                                    if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                        fr = new FileReader("student.json");
+                                        br = new BufferedReader(fr);
+                                        convertedJSON2 = gson.fromJson(br, lts);
+                                        convertedJSON2.get(i).nightsMovieKept = nightsMovieKept;
+                                        System.out.println("Payment amount for the movie is: $" + convertedJSON2.get(i).calculate());
+                                        fw = new FileWriter("student.json");
+                                        fw.write(gson.toJsonTree(convertedJSON2, lts).toString());
+                                        fw.close();
+                                    }
+                                }
+                            }
+                        } catch (Exception e) {
+                            System.out.println(e);
+                            break;
+                        }
+                        break;
+                    }
+                }
+                break;
+                case "5": {
+                    try {
+                        fr = new FileReader("external.json");
+                        br = new BufferedReader(fr);
+                        convertedJSON = gson.fromJson(br, lte);
+                        FileReader fr2 = new FileReader("student.json");
+                        BufferedReader br2 = new BufferedReader(fr2);
+                        convertedJSON2 = gson.fromJson(br2, lts);
+                        if (convertedJSON != null || convertedJSON2 != null) {
+                            if (convertedJSON != null) {
+                                for (int i = 0; i < convertedJSON.size(); i++) {
+                                    fr = new FileReader("rent.json");
+                                    br = new BufferedReader(fr);
+                                    convertedJSON4 = gson.fromJson(br, ltr);
+                                    for (int j = 0; j < convertedJSON4.size(); j++) { // to match the member with the movie name that was borrowed
+                                        if (convertedJSON.get(i).id.equalsIgnoreCase(convertedJSON4.get(j).memberId)) {
+                                            convertedJSON.get(i).movieName = convertedJSON4.get(j).movieName;
+                                            fw = new FileWriter("external.json");
+                                            fw.write(gson.toJsonTree(convertedJSON, lte).toString());
+                                            fw.close();
+                                        }
+                                    }
+                                }
+                                System.out.println(convertedJSON);
+                            }
+                            if (convertedJSON2 != null) {
+                                for (int i = 0; i < convertedJSON2.size(); i++) {
+                                    fr = new FileReader("rent.json");
+                                    br = new BufferedReader(fr);
+                                    convertedJSON4 = gson.fromJson(br, ltr);
+                                    for (int j = 0; j < convertedJSON4.size(); j++) {
+                                        if (convertedJSON2.get(i).id.equalsIgnoreCase(convertedJSON4.get(j).memberId)) {
+                                            convertedJSON2.get(i).movieName = convertedJSON4.get(j).movieName;
+                                            fw = new FileWriter("student.json");
+                                            fw.write(gson.toJsonTree(convertedJSON2, lts).toString());
+                                            fw.close();
+                                        }
+                                    }
+                                }
+                                System.out.println(convertedJSON2);
+                            }
+                        } else {
+                            throw new Exception();
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Member list is empty!");
+                    }
+                }
+                break;
+                case "6": {
+                    try {
+                        fr = new FileReader("movie.json");
+                        br = new BufferedReader(fr);
+                        convertedJSON3 = gson.fromJson(br, ltm);
+                        if (convertedJSON3 != null) {
+                            for (int i = 0; i < convertedJSON3.size(); i++) {
+                                fr = new FileReader("rent.json");
+                                br = new BufferedReader(fr);
+                                convertedJSON4 = gson.fromJson(br, ltr);
+                                for (int j = 0; j < convertedJSON4.size(); j++) { // to match the movie name with id that borrowed it
+                                    if (convertedJSON3.get(i).movieName.equalsIgnoreCase(convertedJSON4.get(j).movieName)) {
+                                        convertedJSON3.get(i).memberId = convertedJSON4.get(j).memberId;
+                                        fw = new FileWriter("movie.json");
+                                        fw.write(gson.toJsonTree(convertedJSON3, ltm).toString());
+                                        fw.close();
+                                    }
+                                }
+                            }
+                            System.out.println(convertedJSON3);
+                        } else {
+                            throw new Exception();
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Movie list is empty!");
+                    }
+                }
+                break;
+                case "7": {
+                    String id = "";
+                    boolean flag1 = true;
+                    try {
+                        fr = new FileReader("external.json");
+                        br = new BufferedReader(fr);
+                        convertedJSON = gson.fromJson(br, lte);
+                        FileReader fr2 = new FileReader("student.json");
+                        BufferedReader br2 = new BufferedReader(fr2);
+                        convertedJSON2 = gson.fromJson(br2, lts);
+                        if (convertedJSON != null || convertedJSON2 != null) {
+                            while (flag1) {
+                                boolean flag2 = false;
+                                try {
+                                    System.out.println("Enter member ID: ");
+                                    id = in.next();
+                                    if (convertedJSON != null) { // if id exists
+                                        for (int i = 0; i < convertedJSON.size(); i++) {
+                                            if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                                flag2 = true;
+                                            }
+                                        }
+                                        if (flag2 == true) {
+                                            fr = new FileReader("rent.json");
+                                            br = new BufferedReader(fr);
+                                            convertedJSON4 = gson.fromJson(br, ltr);
+                                            for (int j = 0; j < convertedJSON4.size(); j++) { // check for integrity constraint
+                                                if (convertedJSON4.get(j).memberId.equalsIgnoreCase(id)) {
+                                                    System.out.println("Cannot delete member: Integrity Constraint Exception!");
+                                                    throw new Exception();
+                                                }
+                                            }
+                                            for (int i = 0; i < convertedJSON.size(); i++) { // removing member if no integrity constraint exists
+                                                if (convertedJSON.get(i).id.equalsIgnoreCase(id)) {
+                                                    convertedJSON.remove(i);
+                                                    fw = new FileWriter("external.json");
+                                                    fw.write(gson.toJsonTree(convertedJSON, lte).toString());
+                                                    fw.close();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    if (convertedJSON2 != null) { // if id exists
+                                        for (int i = 0; i < convertedJSON2.size(); i++) {
+                                            if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                                flag2 = true;
+                                            }
+                                        }
+                                        if (flag2 == true) {
+                                            fr = new FileReader("rent.json");
+                                            br = new BufferedReader(fr);
+                                            convertedJSON4 = gson.fromJson(br, ltr);
+                                            for (int j = 0; j < convertedJSON4.size(); j++) { // check for integrity constraint
+                                                if (convertedJSON4.get(j).memberId.equalsIgnoreCase(id)) {
+                                                    System.out.println("Cannot delete member: Integrity Constraint Exception!");
+                                                    throw new Exception();
+                                                }
+                                            }
+                                            for (int i = 0; i < convertedJSON2.size(); i++) { // removing member if no integrity constraint exists
+                                                if (convertedJSON2.get(i).id.equalsIgnoreCase(id)) {
+                                                    convertedJSON2.remove(i);
+                                                    fw = new FileWriter("student.json");
+                                                    fw.write(gson.toJsonTree(convertedJSON2, lts).toString());
+                                                    fw.close();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    if (flag2 == false) {
+                                        System.out.println("Member does not exist!");
+                                        throw new Exception();
+                                    }
+                                } catch (Exception e) {
+                                    break;
+                                }
+                                break;
+                            }
+                        } else {
+                            throw new Exception();
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Member list is empty!");
+                    }
+                }
+                break;
+                case "8": {
+                    String movieName = "";
+                    boolean flag1 = true;
+                    while (flag1) {
+                        boolean flag2 = false;
+                        try {
+                            fr = new FileReader("movie.json");
+                            br = new BufferedReader(fr);
+                            convertedJSON3 = gson.fromJson(br, ltm);
+                            if (convertedJSON3 != null) {
+                                System.out.println("Enter movie name: ");
+                                movieName = in.next();
+                                for (int i = 0; i < convertedJSON3.size(); i++) { // if movie exists
+                                    if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) {
+                                        flag2 = true;
+                                    }
+                                }
+                                if (flag2 == true) {
+                                    fr = new FileReader("rent.json");
+                                    br = new BufferedReader(fr);
+                                    convertedJSON4 = gson.fromJson(br, ltr);
+                                    for (int j = 0; j < convertedJSON4.size(); j++) { // to check for integrity constraint
+                                        if (convertedJSON4.get(j).movieName.equalsIgnoreCase(movieName)) {
+                                            System.out.println("Cannot delete movie: Integrity Constraint Exception!");
+                                            throw new Exception();
+                                        }
+                                    }
+                                    for (int i = 0; i < convertedJSON3.size(); i++) {
+                                        if (convertedJSON3.get(i).movieName.equalsIgnoreCase(movieName)) { // to remove movie if no integrity constraint exists
+                                            convertedJSON3.remove(i);
+                                            fw = new FileWriter("movie.json");
+                                            fw.write(gson.toJsonTree(convertedJSON3, ltm).toString());
+                                            fw.close();
+                                        }
+                                    }
+                                }
+                                if (flag2 == false) {
+                                    System.out.println("Movie does not exist!");
+                                    throw new Exception();
+                                }
+                            } else {
+                                System.out.println("Movie list is empty!");
+                                throw new Exception();
+                            }
+                        } catch (Exception e) {
+                            break;
+                        }
+                        break;
+                    }
+                }
+                break;
+
+                case "9": {
+                    flag = false;
+                }
+                break;
+                default:
+                    System.out.println("Invalid entry!");
+            }
+        }
+    }
+
+}
+package project;
+/**
+ *
+ * @author Amer-
+ */
+public abstract class Person{
+    String id;
+    String memberStatus;
+    int nightsMovieKept;
+    public Person(){
+        
+    }
+    /**
+     * Person class constructor
+     * @param i
+     * @param m 
+     */
+    public Person(String i, String m){
+        id = i;
+        memberStatus = m;
+    }
+    
+    /**
+     * Abstract class to generate string
+     * @return 
+     */
+    public abstract String toString();
+}
+package project;
+/**
+ *
+ * @author Amer-
+ */
+public class External_Member extends Person implements Payment{
+    String job;
+    String orgName;
+    String movieName;
+    
+    /**
+     * External_Member class constructor
+     * @param i
+     * @param m
+     * @param j
+     * @param o 
+     */
+    public External_Member(String i, String m, String j, String o){
+        super(i, m);
+        job = j;
+        orgName = o;
+    }
+    
+    /**
+     * Method to calculate and return the fee based on amount of nights movie is rented
+     * @return 
+     */
+    public int calculate(){
+        int feePerNight = 10;
+        if(nightsMovieKept > 7){
+            feePerNight += 2 * (nightsMovieKept - 7);
+        }
+        return feePerNight;
+    }
+    
+    /**
+     * Method to display the class attributes
+     * @return 
+     */
+    public String toString(){
+        String str = "ID: " + id + "\n";
+        str += "Member Status: " + memberStatus + "\n";
+        str += "Job: " + job + "\n";
+        str += "Organization Name: " + orgName + "\n";
+        str += "Movie Name: " + movieName + "\n";
+        return str;
+    }
+}
+package project;
+/**
+ *
+ * @author Amer-
+ */
+public class Student extends Person implements Payment{
+    String schoolName;
+    double grade;
+    String movieName;
+    
+    /**
+     * Student class constructor
+     * @param i
+     * @param m
+     * @param s
+     * @param g 
+     */
+    public Student(String i, String m, String s, double g){
+        super(i, m);
+        schoolName = s;
+        grade = g;
+    }
+    
+    /**
+     * Method to calculate and return the fee based on amount of nights movie is rented
+     * @return 
+     */
+    public int calculate(){
+        int feePerNight = 5;
+        if(nightsMovieKept > 7){
+            feePerNight += 1 * (nightsMovieKept - 7);
+        }
+        return feePerNight;
+    }
+    
+    /**
+     * Method to display the class attributes
+     * @return 
+     */
+    public String toString(){
+        String str = "ID: " + id + "\n";
+        str += "Member Status: " + memberStatus + "\n";
+        str += "School Name: " + schoolName + "\n";
+        str += "Grade: " + grade + "\n";
+        str += "Movie Name: " + movieName + "\n";
+        return str;
+    }
+}
+package project;
+
+/**
+ *
+ * @author Amer-
+ */
+public interface Payment {
+    /**
+     * Method to calculate and return the fee based on amount of nights movie is rented
+     * @return 
+     */
+    public int calculate();
+}
+package project;
+
+/**
+ *
+ * @author Amer-
+ */
+public class Movie {
+    String movieName;
+    String memberId;
+    boolean avaliability = true;
+
+    /**
+     * Movie class constructor
+     * @param returned
+     * @return 
+     */
+    public Movie(String mn) {
+        movieName = mn;
+    }
+
+    /**
+     * Method to return whether the movie is returned and update the availability
+     * @param returned
+     * @return 
+     */
+    public boolean isMovieReturned(boolean returned) {
+        if (returned == true) {
+            avaliability = true;
+            return true;
+        } else {
+            avaliability = false;
+            return false;
+        }
+    }
+
+    /**
+     * Method to return whether the movie is borrowed and update the availability
+     * @param borrowed
+     * @return 
+     */
+    public boolean isMovieBorrowed(boolean borrowed) {
+        if (borrowed == true) {
+            avaliability = false;
+            return true;
+        } else {
+            avaliability = true;
+            return false;
+        }
+    }
+    
+    /**
+     * Method to display the class attributes
+     * @return 
+     */
+    public String toString(){
+        String str = "Movie Name: " + movieName + "\n";
+        str += "Member ID: " + memberId + "\n";
+        str += "Avaliability: " + avaliability + "\n";
+        return str;
+    }
+}
+package project;
+
+/**
+ *
+ * @author Amer-
+ */
+public class Rent_Movie {
+    String movieName;
+    String memberId;
+    
+    /**
+     * Rent_Movie class constructor
+     * @param mem
+     * @param mov 
+     */
+    public Rent_Movie(String mem, String mov){
+        memberId = mem;
+        movieName = mov;
+    }
+    
+    /**
+     * Method to display the class attributes
+     * @return 
+     */
+    public String toString(){
+        String str = "Member ID: " + memberId + "\n";
+        str += "Movie name: " + movieName + "\n";
+        return str;
+    }
+}
